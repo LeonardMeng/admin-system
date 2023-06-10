@@ -1,10 +1,9 @@
 package org.mengsoft.adminbackend.common;
 
-import io.jsonwebtoken.JwtBuilder;
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
+import io.jsonwebtoken.*;
 import org.bouncycastle.util.encoders.Base64;
 import org.mengsoft.adminbackend.constant.JwtConstant;
+import org.mengsoft.adminbackend.entity.CheckResult;
 
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
@@ -63,4 +62,17 @@ public class JwtUtils {
     }
 
 
+    /**
+     * 解析JWT字符串
+     * @param jwt
+     * @return
+     * @throws Exception
+     */
+    public static Claims parseJWT(String jwt) {
+        SecretKey secretKey = generalKey();
+        return Jwts.parser()
+                .setSigningKey(secretKey)
+                .parseClaimsJws(jwt)
+                .getBody();
+    }
 }
