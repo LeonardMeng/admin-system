@@ -1,4 +1,4 @@
-package org.mengsoft.adminbackend.utils.tools;
+package org.mengsoft.adminbackend.common.tools;
 
 import java.util.ArrayList;
 import java.util.List;

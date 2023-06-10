@@ -1,4 +1,4 @@
-package org.mengsoft.adminbackend.utils.responseutils.enums;
+package org.mengsoft.adminbackend.common.responseutils.enums;
 
 
 

@@ -1,8 +1,8 @@
-package org.mengsoft.adminbackend.utils.responseutils;
+package org.mengsoft.adminbackend.common.responseutils;
 
 
 import lombok.extern.slf4j.Slf4j;
-import org.mengsoft.adminbackend.utils.responseutils.enums.ResponseCode;
+import org.mengsoft.adminbackend.common.responseutils.enums.ResponseCode;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;

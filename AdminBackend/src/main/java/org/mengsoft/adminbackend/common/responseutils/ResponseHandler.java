@@ -1,6 +1,6 @@
-package org.mengsoft.adminbackend.utils.responseutils;
+package org.mengsoft.adminbackend.common.responseutils;
 
-import org.mengsoft.adminbackend.utils.tools.JsonUtil;
+import org.mengsoft.adminbackend.common.tools.JsonUtil;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;

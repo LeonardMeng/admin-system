@@ -1,10 +1,10 @@
-package org.mengsoft.adminbackend.utils.responseutils;
+package org.mengsoft.adminbackend.common.responseutils;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.mengsoft.adminbackend.utils.responseutils.enums.ResponseCode;
+import org.mengsoft.adminbackend.common.responseutils.enums.ResponseCode;
 
 @Builder
 @AllArgsConstructor
