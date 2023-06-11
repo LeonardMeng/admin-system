@@ -10,11 +10,11 @@ spring:
     url: jdbc:mysql://localhost:3306/db_admin
     username: root
     password: 123456
-  redis: # redis??
+  redis: # redis config
     host: 127.0.0.1 # IP
-    port: 6379  # ??
-    password:  # ??
-    connect-timeout: 10s  # ??????
+    port: 6379
+    password:
+    connect-timeout: 10s  # timeout
     lettuce: # lettuce redis?????
       pool: # ?????
         max-active: 8  # ???????????????????? ?? 8
